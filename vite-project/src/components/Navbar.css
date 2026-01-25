@@ -14,20 +14,18 @@
     background: transparent;
   }
   
-  /* Groups */
   .nav-group {
     display: flex;
     gap: 40px;
   }
   
-  /* Links */
   .nav-group a {
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
   
-    color: #d4af37; /* luxury gold */
+    color: #d4af37;
     opacity: 0.85;
   
     transition: opacity 0.3s ease;
@@ -37,7 +35,6 @@
     opacity: 1;
   }
   
-  /* Logo */
   .nav-logo {
     font-size: 22px;
     letter-spacing: 6px;
@@ -45,11 +42,9 @@
   
     color: #d4af37;
   
-    /* IMPORTANT: match bottle font here */
     font-family: "Playfair Display", serif;
   }
   
-  /* Optional subtle divider line */
   .navbar::after {
     content: "";
     position: absolute;

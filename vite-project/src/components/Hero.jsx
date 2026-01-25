@@ -45,7 +45,6 @@ const Hero = () => {
 
           return (
             <div className="slice" key={i}>
-              {/* CURRENT IMAGE SLICE */}
               <div
                 className="layer current"
                 style={{

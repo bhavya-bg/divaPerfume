@@ -24,22 +24,18 @@
     transition: transform 0.9s cubic-bezier(0.77, 0, 0.175, 1);
   }
   
-  /* ---------- INITIAL STATE ---------- */
   .current {
     transform: translateY(0);
   }
   
-  /* ODD slices: next starts BELOW */
   .slice:nth-child(odd) .next {
     transform: translateY(100%);
   }
   
-  /* EVEN slices: next starts ABOVE */
   .slice:nth-child(even) .next {
     transform: translateY(-100%);
   }
   
-  /* ---------- ANIMATION STATE ---------- */
   .animate .slice:nth-child(odd) .current {
     transform: translateY(-100%);
   }
@@ -56,7 +52,6 @@
     transform: translateY(0);
   }
   
-  /* Arrow */
   .hero-arrow {
     position: absolute;
     right: 40px;
